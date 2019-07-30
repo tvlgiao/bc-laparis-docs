@@ -69,8 +69,23 @@ To customize colors of the header section, look into the options showing below i
 
 ![Theme editor header](img/theme-editor-header.png)
 
+## MEGA MENU
 
+![Mega Menu](img/home1-megamenu.png)
 
+Images or labels appear on the mega menu can be edited in the language file `en.json`:
+
+![Edit language for mega menu](img/edit-language-megamenu.png)
+
+For example if the current menu __Shop By__ has category ID = `23`.
+
+- `"show_cat_image_23": "yes"`: specify an image will show on this menu.
+- `cat_image_23`: is the image URL.
+If you want to show a label beside a menu items like above image, for example the menu item Season has category ID = `28`:
+
+- `"show_item_label_28": "yes"`: specify a label will show beside this menu item.
+- `"item_label_28"`: is the label text.
+You can add more for other items as you want.
 
 ## Main Slideshow / Carousel
 
@@ -102,18 +117,27 @@ To hide the slideshow on homepage, uncheck on the checkbox __Show Carousel__ in 
 
 
 
-## 3 Banners
+## Style 1 / 3 Banners
 
-![3 Banners LaParis Style 1](img/home1-banner-laparis1.jpg)
+![Style 1 / 3 Banners](img/bc-laparis-builder-3-banner-main.png)
 
-To edit content and images of 3 banners, edit the language file `en.json` as showing below:
+To edit content and images of banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-![Edit language banner LaParis1](img/edit-language-banner-laparis1.png)
+Chooes the tab Style 1 / 3 Banners and Enter all required info on the form.
 
-If you don't want to show any elements of a banner, for example the button, leave the value __a single space__ character. Example: `"button": " "`.
+![bc laparis builder 3 banner](img/bc-laparis-builder-3-banner.png)
 
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
 
-## New / Featured / Popular Products
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 1 / New - Featured - Popular Products
 
 The theme supports 3 layout type of New Products, Featured Products and Popular Products blocks:
 
@@ -128,6 +152,256 @@ __List__:
 __Carousel__:
 
 ![Products Grid](img/home1-products-carousel.jpg)
+
+## Style 2 / Image Slider
+
+![Style 2 / Image Slider](img/bc-laparis-builder-Image-slider-main.png)
+
+To edit images of Slider, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 2 / Image Slider and Enter all required info on the form.
+
+![bc laparis builder image slider](img/bc-laparis-builder-image-slider.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 2 / Products By Category
+
+![Products by category](img/home2-products-by-category.jpg)
+
+This section allows you to show products in a certain category. To configure it edit the language file. File keys `emthemesmodez` > `products_by_category`.
+
+![Edit language products by category](img/edit-language-products-by-category.png)
+
+- `category_id_*`: is the product category ID that products belong.
+- `image_*`: is the image URL to show up beside the products.
+- `heading_*`: The heading text on the banner beside.
+- `text_*`: Description text on the banner beside.
+- `banner_*`: Button text on the banner beside
+- `style_*`: `" "` or `"right"` to show banner on left or right.
+
+Theme supports up to 3 products by category blocks.
+
+## Style 2 / New - Featured - Bestselling Columns
+
+![New Featured Bestselling products columns](img/home2-special-products-columns.jpg)
+
+This section show new products, featured products and bestselling products in 3 columns.
+
+You can configure number of products to display in __Theme Editor__ > __Homepage__ section:
+
+![Theme editor products](img/theme-editor-homepage-products-options.png)
+
+You can change the heading text of each column in the language files, find and edit keys `products` > `new`, `products` > `featured`, `products` > `top`.
+
+
+## Style 3 / First Row Banners
+
+![Style 3 / First Row Banners](img/bc-laparis-builder-first-row-banners-main.png)
+
+To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 3 / First Row Banners and Enter all required info on the form.
+
+![bc laparis builder first row banners](img/bc-laparis-builder-first-row-banner.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 3 / Second Row Banners
+
+![Style 3 / Second Row Banners](img/bc-laparis-builder-second-row-banners-main.png)
+
+To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 3 / Second Row Banners and Enter all required info on the form.
+
+![bc laparis builder second row banners](img/bc-laparis-builder-second-row-banners.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 3 / Third Row Banners
+
+![Style 3 / Third Row Banners](img/bc-laparis-builder-third-row-banners-main.png)
+
+To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 3 / Third Row Banners and Enter all required info on the form.
+
+![bc laparis builder Third row banners](img/bc-laparis-builder-third-row-banners.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 4 / Text Block
+
+![Style 4 / Text Block](img/bc-laparis-builder-text-block-main.png)
+
+To edit content of Text Block, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 4 / Text Block and Enter all required info on the form.
+
+![bc laparis builder text block](img/bc-laparis-builder-text-block.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 4 / First Row Banners
+
+![Style 4 / First Row Banners](img/bc-laparis-builder-style-4-first-row-banners-main.png)
+
+To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 4 / First Row Banners and Enter all required info on the form.
+
+![Style 4 / First Row Banners](img/bc-laparis-builder-style-4-first-row-banners.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 4 / Second Row Banners
+
+![Style 4 / Second Row Banners](img/bc-laparis-builder-style-4-second-row-banners-main.png)
+
+To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 4 / Second Row Banners and Enter all required info on the form.
+
+![Style 4 / Second Row Banners](img/bc-laparis-builder-style-4-second-row-banners.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 4 / Third Row Banners
+
+![Style 4 / Third Row Banners](img/bc-laparis-builder-style-4-third-row-banners-main.png)
+
+To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 4 / Third Row Banners and Enter all required info on the form.
+
+![Style 4 / Third Row Banners](img/bc-laparis-builder-style-4-third-row-banners.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 4 / Fourth Row Banners
+
+![Style 4 / Fourth Row Banners](img/bc-laparis-builder-style-4-fourth-row-banners-main.png)
+
+To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 4 / Fourth Row Banners and Enter all required info on the form.
+
+![Style 4 / Fourth Row Banners](img/bc-laparis-builder-style-4-fourth-row-banners.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 4 / Fifth Row Banners
+
+![Style 4 / Fifth Row Banners](img/bc-laparis-builder-style-4-fifth-row-banners-main.png)
+
+To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 4 / Fifth Row Banners and Enter all required info on the form.
+
+![Style 4 / Fifth Row Banners](img/bc-laparis-builder-style-4-fifth-row-banners.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
+
+## Style 4 / Video Banner
+
+![Style 4 / Video Banner](img/bc-laparis-builder-style-4-bideo-banner-main.png)
+
+To edit content of Video Banner, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
+
+Chooes the tab Style 4 / Video Banner and Enter all required info on the form.
+
+![Style 4 / Video Banner](img/bc-laparis-builder-style-4-bideo-banner.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
 
 
 ### Configure a Layout Type of products block & Number of Products to show up
@@ -162,9 +436,47 @@ To change the heading text (New Products, Featured Products, Most Popular Produc
 
 
 
+###Change background of featured products block
 
+![Products Carousel](img/home1-products-carousel.jpg)
 
+#### METHOD 1:
+To replace this background with our own image, in [Edit Theme Files](https://tvlgiao.github.io/bc-laparis-docs/quickstart/index.html#edit-template-files) you can overwrite image file  `assets/img/categories-featured-bg.jpg` with your own.
 
+#### METHOD 2:
+To completely remove it, add the CSS code below to `assets/scss/_theme-custom.scss`:
+
+```plain
+.emthemesModez-productsVerticalCategoriesAside-outer--1 {
+  background-image: none;
+}
+```
+
+### Show products grid with first product show bigger
+In theme __Style 3__, the homepage shows new products like below:
+
+![Home 3 - New Products](img/home3-new-products.jpg)
+
+This can be accomplished by the code in homepage template file  `templates/components/emthemes-modez/home/laparis3.html`:
+```plain
+{{> components/emthemes-modez/sections/section section="new_products" style="laparis1"}}
+```
+Note the difference is `style="laparis1"`.
+
+Show products carousel fullwidth and having subheading
+In theme style LaParis IV, the homepage shows featured products like below:
+
+![Home 4 - products carousel](img/home4-products-carousel.jpg)
+
+This can be accomplished by the code in homepage template file  `templates/components/emthemes-modez/home/laparis4.html`:
+```plain
+{{> components/emthemes-modez/sections/section section="featured_products" style="laparis4" show_subheading=true}}
+```
+- `style="laparis4"` indicates that products carousel should show full width.
+- `show_subheading=true` indicates that the products block should have subheading.
+Subheading can be edited in the language file `en.json`:
+
+![Edit language file for subheading](img/edit-language-subheading.png)
 
 ## Recent Blog Posts
 
@@ -182,17 +494,25 @@ To change the heading text, read more text and date format, edit the language fi
 
 
 
-## Image Carousel
+## Brand Carousel
 
-![Image carousel](img/home1-image-carousel.png)
+![Brand Carousel](img/bc-laparis-builder-brand-carousel-main.png)
 
-To edit image and links in this image carousel section, edit the language file, find key `emthemesmodez` > `image_carousel`
+To edit images of Brand Carousel, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-![Edit language image carousel](img/edit-language-brands-carousel.png)
+Chooes the tab Brand Carousel and Enter all required info on the form.
 
-- `image*`: is link to the image.
-- `title*`: is image text description.
-- `url*`: is image link. Leave a single space letter in the value if you want to hide any image.
+![Brand Carousel](img/bc-laparis-builder-brand-carousel.png)
+
+- Create a new banner in __Marketing__ > __Banners__ > click __Create a Banner__ button.
+- Click button __HTML__ in __Banner Content__ editor to show __HTML Source Editor__.
+- Copy and paste the code above to __HTML Source Editor__. Then click __Update__ button:
+
+![banner content html source editor](img/banner-content-html-source-editor.png)
+
+Set Show on __Page = Home Page__ and __Location = Top of Page__:
+
+![config banner show on home](img/config-banner-show-on-home.png)
 
 
 
@@ -282,65 +602,6 @@ To display our own Instagram photos, edit the language file. Find the key `emthe
 
 ![Edit instagram in the language file](img/edit-language-instagram.png)
 
-
-
-
-
-
-## LaParis II - Products By Category
-
-![Products by category](img/home2-products-by-category.jpg)
-
-This section allows you to show products in a certain category. To configure it edit the language file. File keys `emthemesmodez` > `products_by_category`.
-
-![Edit language products by category](img/edit-language-products-by-category.png)
-
-- `category_id_*`: is the product category ID that products belong.
-- `image_*`: is the image URL to show up beside the products.
-- `heading_*`: The heading text on the banner beside.
-- `text_*`: Description text on the banner beside.
-- `banner_*`: Button text on the banner beside
-- `style_*`: `" "` or `"right"` to show banner on left or right.
-
-Theme supports up to 3 products by category blocks.
-
-
-## LaParis II - Images Carousel
-
-![Images Carousel](img/home2-image-carousel.jpg)
-
-To configure this image carousel, edit the lagnuage file, find keys `emthemesmodez` > `image_carousel`:
-
-![Edit language image carousel](img/edit-language-image-carousel.png)
-
-- `image_*`: Slide image URL. Leave a single space letter if not use.
-- `image_alt_*`: image alt text.
-- `url_*`: link URL.
-- `heading_*`: Heading text. Leave a single space letter to hide.
-- `text_*`: Description text. Leave a single space letter to hide.
-- `button_*`: Button text. Leave a single space to hide.
-
-Theme supports up to 5 images in this section. 
-
-
-
-## LaParis II - New / Featured / Bestselling Columns
-
-![New Featured Bestselling products columns](img/home2-special-products-columns.jpg)
-
-This section show new products, featured products and bestselling products in 3 columns.
-
-You can configure number of products to display in __Theme Editor__ > __Homepage__ section:
-
-![Theme editor products](img/theme-editor-homepage-products-options.png)
-
-You can change the heading text of each column in the language files, find and edit keys `products` > `new`, `products` > `featured`, `products` > `top`.
-
-
-
-
-
-
 ## Footer - Newsletter
 
 ![Newsletter](img/home1-newsletter.png)
@@ -419,11 +680,64 @@ To edit links in the copyright section at footer, edit the language file, find `
 To show/hide the credit links, go to Theme Editor > __Footer__ section, tick or untick the checkboxes as showing above.
 
 
+## Assign different product layout to a specific product page
 
+Theme has 2 product layouts: __default__ and __Fullwith with Lightbox__.
+
+Product layout fullwidth:
+
+![Product layout fullwidth](img/product-layout-fullwidth.jpg)
+
+To assign a product layout, edit your product in the admin panel. In tab __Order Details__, choose __Template Layout File__ with the layout out want:
+
+![Assign product layout](img/assign-product-layout.png)
+
+## Assign different category layout to a specific category page
+
+Theme has 2 category layout: __default__ and __Fullwidth__.
+
+Category layout fullwidth:
+
+![Category layout fullwidth](img/category-layout-fullwidth.jpg)
+
+To assign a category layout, edit your category in the admin panel. Choose __Template Layout File__ with the layout out want:
+
+![Assign category layout](img/assign-category-layout.png)
+
+
+## Show custom product labels
+
+![Product labels](img/product-labels.jpg)
+
+Turn on displaying product labels in the __Theme Editor__ > __Products section__, tick on the checkbox __Show custom label using custom field 'card_label'__ and __choose Display Product Sale Badges__ as __Top Left__.
+
+![Theme editor products options](img/theme-editor-products-show-options.png)
+
+![Theme editor product sale badges](img/theme-editor-product-sale-badges.png)
+
+Edit your product in the admin panel to add custom label:
+
+![Edit product custom fields](img/edit-product-custom-fields.png)
+
+Add a custom label named `card_label` and enter label text in the value input box.
+
+## Show color swatches on product card:
+
+![Color swatches on product card](img/product-card-color-swatches.png)
+
+To display color watches on product card, open __Theme Editor__ > __Products section__, tick on the checkbox __Show color swatches using custom field 'card_color'__.
+
+![Theme editor products options](img/theme-editor-products-show-options.png)
+
+Edit your product in the admin panel to add custom label:
+
+![Edit product custom fields](img/edit-product-custom-fields.png)
+
+Add a custom label named `card_color` and enter color hex code in the value input box seperator by commas.
 
 ## Mix contents from other theme styles
 
-For example, if you want to use theme __default__ style as the main theme, but also want to display other content blocks from __LaParis II__ style. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.
+For example, if you want to use theme __default__ style as the main theme, but also want to display other content blocks from __Style 2__. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.
 
 Let open folder `templates` > `components` > `emthemes-modez` > `home` in the template files editor:
 
@@ -432,7 +746,7 @@ Let open folder `templates` > `components` > `emthemes-modez` > `home` in the te
 There is 2 files in this folder:
 
 - `default.html`: is used for __default__ style.
-- `laparis2.html`: is used for __LaParis II__ style.
+- `laparis2.html`: is used for __Style 2__.
 
 Let's take a look at contents of 2 files:
 
@@ -468,9 +782,9 @@ The files are showing very clearly how content blocks are displayed. See values 
 - `blog_recent`: Is a block contains recent blog posts.
 - `brands_carousel`: Is a brand images carousel.
 - `instagram_grid`: Is a block displaying instagram photos.
-- `products_by_category_1` & `products_by_category_2`: Is a block contains product in a certain category as showing on homepage of LaParis II style.
-- `carousel_laparis2_1`: Is the image carousel as showing on homepage of LaParis II style.
-- `special_products_columns`: Is a block contains 3 columns showing new products, featured products and bestselling products as displayed on homepage of LaParis II style.
+- `products_by_category_1` & `products_by_category_2`: Is a block contains product in a certain category as showing on homepage of __Style 2__.
+- `carousel_laparis2_1`: Is the image carousel as showing on homepage of __Style 2__.
+- `special_products_columns`: Is a block contains 3 columns showing new products, featured products and bestselling products as displayed on homepage of __Style 2__.
 
 So just copy a line from the other file to the other. Arrange position of these sections as you wish.
 
