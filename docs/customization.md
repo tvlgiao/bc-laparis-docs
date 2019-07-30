@@ -123,7 +123,7 @@ To hide the slideshow on homepage, uncheck on the checkbox __Show Carousel__ in 
 
 To edit content and images of banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 1 / 3 Banners and Enter all required info on the form.
+Chooes the tab __Style 1 / 3 Banners__ and Enter all required info on the form.
 
 ![bc laparis builder 3 banner](img/bc-laparis-builder-3-banner.png)
 
@@ -159,7 +159,7 @@ __Carousel__:
 
 To edit images of Slider, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 2 / Image Slider and Enter all required info on the form.
+Chooes the tab __Style 2 / Image__ Slider and Enter all required info on the form.
 
 ![bc laparis builder image slider](img/bc-laparis-builder-image-slider.png)
 
@@ -209,7 +209,7 @@ You can change the heading text of each column in the language files, find and e
 
 To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 3 / First Row Banners and Enter all required info on the form.
+Chooes the tab __Style 3 / First Row Banners__ and Enter all required info on the form.
 
 ![bc laparis builder first row banners](img/bc-laparis-builder-first-row-banner.png)
 
@@ -229,7 +229,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 3 / Second Row Banners and Enter all required info on the form.
+Chooes the tab __Style 3 / Second Row Banners__ and Enter all required info on the form.
 
 ![bc laparis builder second row banners](img/bc-laparis-builder-second-row-banners.png)
 
@@ -249,7 +249,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 3 / Third Row Banners and Enter all required info on the form.
+Chooes the tab __Style 3 / Third Row Banners__ and Enter all required info on the form.
 
 ![bc laparis builder Third row banners](img/bc-laparis-builder-third-row-banners.png)
 
@@ -269,7 +269,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit content of Text Block, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 4 / Text Block and Enter all required info on the form.
+Chooes the tab __Style 4 / Text Block__ and Enter all required info on the form.
 
 ![bc laparis builder text block](img/bc-laparis-builder-text-block.png)
 
@@ -289,7 +289,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 4 / First Row Banners and Enter all required info on the form.
+Chooes the tab __Style 4 / First Row Banners__ and Enter all required info on the form.
 
 ![Style 4 / First Row Banners](img/bc-laparis-builder-style-4-first-row-banners.png)
 
@@ -309,7 +309,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 4 / Second Row Banners and Enter all required info on the form.
+Chooes the tab __Style 4 / Second Row Banners__ and Enter all required info on the form.
 
 ![Style 4 / Second Row Banners](img/bc-laparis-builder-style-4-second-row-banners.png)
 
@@ -329,7 +329,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 4 / Third Row Banners and Enter all required info on the form.
+Chooes the tab __Style 4 / Third Row Banners__ and Enter all required info on the form.
 
 ![Style 4 / Third Row Banners](img/bc-laparis-builder-style-4-third-row-banners.png)
 
@@ -349,7 +349,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 4 / Fourth Row Banners and Enter all required info on the form.
+Chooes the tab __Style 4 / Fourth Row Banners__ and Enter all required info on the form.
 
 ![Style 4 / Fourth Row Banners](img/bc-laparis-builder-style-4-fourth-row-banners.png)
 
@@ -369,7 +369,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit images of Banners, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 4 / Fifth Row Banners and Enter all required info on the form.
+Chooes the tab __Style 4 / Fifth Row Banners__ and Enter all required info on the form.
 
 ![Style 4 / Fifth Row Banners](img/bc-laparis-builder-style-4-fifth-row-banners.png)
 
@@ -389,7 +389,7 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 To edit content of Video Banner, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Style 4 / Video Banner and Enter all required info on the form.
+Chooes the tab __Style 4 / Video Banner__ and Enter all required info on the form.
 
 ![Style 4 / Video Banner](img/bc-laparis-builder-style-4-bideo-banner.png)
 
@@ -500,7 +500,7 @@ To change the heading text, read more text and date format, edit the language fi
 
 To edit images of Brand Carousel, Open the link below on your web browser: [https://bc-laparis-builder.papathemes.com/](https://bc-laparis-builder.papathemes.com/)
 
-Chooes the tab Brand Carousel and Enter all required info on the form.
+Chooes the tab __Brand Carousel__ and Enter all required info on the form.
 
 ![Brand Carousel](img/bc-laparis-builder-brand-carousel.png)
 
