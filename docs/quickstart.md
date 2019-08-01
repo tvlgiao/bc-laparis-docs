@@ -16,14 +16,9 @@ To access the Theme Editor, go to your admin page > __Storefront Design__ > __My
 
 ![Click customize theme](img/click-customize-theme.png)
 
-See the complete guide of Theme Editor in chapter [Theme Settings](settings.md).
-
-
-
-
 ## Edit language file
 
-Language files contains hard-coded static text, images and other links, which can be edited and translated to any languages.
+Language files translated to any languages.
 
 To edit the language file, go to admin page > __Storefront Design__ > __My Themes__, click button __Advanced__ > __Edit Theme Files__ of the current theme:
 

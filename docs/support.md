@@ -1,6 +1,6 @@
 # Help & Support
 
-If you have any problem, don't hesistate to contact us via email <tvlgiao@gmail.com>.
+If you have any problem, don't hesistate to contact us via email <contact@papathemes.com>.
 
 Our working hours: Monday to Friday 8AM - 5PM GMT+8.
 

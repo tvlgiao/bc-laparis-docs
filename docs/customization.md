@@ -49,43 +49,44 @@ To configure, open the __Theme Editor__, scroll down to section __Logo__, click 
 ### Edit 3 info text blocks
 ![Header info text](img/home1-infobar.png)
 
-Show or hide these text blocks in Theme Editor > __Header__ section as showing below: 
+Show, hide and Edit content these text blocks in Theme Editor > __Header__ section as showing below: 
 ![Theme editor top info bar](img/theme-editor-top-info-bar.png)
 
-Edit content in the language file, from admin page > __Storefront Design__ > __My Themes__, click button __Advanced__ > __Edit Theme Files__ of the current theme:
+### User navigation Customization
 
-![Edit theme files](img/edit-theme-files.png)
+To customize User navigation of the header section, look into the options showing below in the Theme Editor:
 
-From the left navigation, click to edit the language file (e.i `en.json`):
+![User navigation Customization](img/theme-editor-header-user-navigation.png)
 
-![Edit language file](img/edit-language-top-info-text.png)
+### Page navigation Customization
 
-Edit the text as figured above.
+To customize Page navigation of the header section, look into the options showing below in the Theme Editor:
 
+![Page navigation Customization](img/theme-editor-header-page-navigation.png)
 
-### Colors Customization
-
-To customize colors of the header section, look into the options showing below in the Theme Editor:
-
-![Theme editor header](img/theme-editor-header.png)
-
-## MEGA MENU
+### Mega menu Customization
 
 ![Mega Menu](img/home1-megamenu.png)
 
-Images or labels appear on the mega menu can be edited in the language file `en.json`:
+To customize Mega menu of the header section, look into the options showing below in the Theme Editor:
 
-![Edit language for mega menu](img/edit-language-megamenu.png)
+![Mega Menu](img/home1-megamenu-2.png)
+
 
 For example if the current menu __Shop By__ has category ID = `23`.
 
-- `"show_cat_image_23": "yes"`: specify an image will show on this menu.
-- `cat_image_23`: is the image URL.
-If you want to show a label beside a menu items like above image, for example the menu item Season has category ID = `28`:
+- __Id Mega menu__: 23.
+- __Show banner on Mega menu__: Check it if you want to display the banner in this Megamenu.
+- __Banner position__: There are 3 choices: __Banner half left__, __Banner half right__ and __Banner quarter__.
+- __The Banner URL__: Enter the path of image source.
 
-- `"show_item_label_28": "yes"`: specify a label will show beside this menu item.
-- `"item_label_28"`: is the label text.
-You can add more for other items as you want.
+If you want to show a label beside a menu items like above image, for example the menu item Season has category ID = `24`:
+
+- __Id Mega menu item__: Is category ID `24`.
+- __Show label on This menu item__: Check it if you want to display the label in this Megamenu.
+- __Label text of This Mega menu item__: is the label text .
+
+![Mega Menu](img/home1-megamenu-3.png)
 
 ## Main Slideshow / Carousel
 
@@ -177,16 +178,16 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 
 ![Products by category](img/home2-products-by-category.jpg)
 
-This section allows you to show products in a certain category. To configure it edit the language file. File keys `emthemesmodez` > `products_by_category`.
+This section allows you to show products in a certain category. To configure it in the Hompage section.
 
-![Edit language products by category](img/edit-language-products-by-category.png)
+![Edit language products by category](img/edit-products-by-category.png)
 
-- `category_id_*`: is the product category ID that products belong.
-- `image_*`: is the image URL to show up beside the products.
-- `heading_*`: The heading text on the banner beside.
-- `text_*`: Description text on the banner beside.
-- `banner_*`: Button text on the banner beside
-- `style_*`: `" "` or `"right"` to show banner on left or right.
+- __Category Id__: is the product category ID that products belong.
+- __Banner position__: __left__ or __right__ to show banner on left or right.
+- __Banner URL__: is the image URL to show up beside the products.
+- __Heading__: The heading text on the banner beside.
+- __Subheading__: Description text on the banner beside.
+- __Button text__: Button text on the banner beside
 
 Theme supports up to 3 products by category blocks.
 
@@ -198,9 +199,7 @@ This section show new products, featured products and bestselling products in 3 
 
 You can configure number of products to display in __Theme Editor__ > __Homepage__ section:
 
-![Theme editor products](img/theme-editor-homepage-products-options.png)
-
-You can change the heading text of each column in the language files, find and edit keys `products` > `new`, `products` > `featured`, `products` > `top`.
+![Theme editor products](img/edit-subheading.png)
 
 
 ## Style 3 / First Row Banners
@@ -404,15 +403,6 @@ Set Show on __Page = Home Page__ and __Location = Top of Page__:
 ![config banner show on home](img/config-banner-show-on-home.png)
 
 
-### Configure a Layout Type of products block & Number of Products to show up
-
-In the __Theme Editor__ > __Homepage__, look into __New Products__ section (or __Featured Products__, __Most Popular Products__):
-
-- __Display type__: Choose appropriate layout type (__Grid__, __List__ or __Carousel__).
-- __Number of Products__: Choose number of products to show up.
-
-![Theme editor homepage products options](img/theme-editor-homepage-products-options.png)
-
 ### Show/Hide Quickview button
 
 When hover on a product item, Quickview button is showed up by default. To disable this feature, uncheck the checkbox __Show Quickview__ in the __Theme Editor__ > __Products__ section.
@@ -427,14 +417,6 @@ In the __Theme Editor__ > __Products__ section, Look into the color options belo
 ![Theme Editor Product Sale Badges options](img/theme-editor-product-sale-badges.png)
 ![Theme Editor Product Cards Quick Search options](img/theme-editor-product-cards-quick-search.png)
 ![Theme Editor Image Sizes options](img/theme-editor-image-sizes.png)
-
-### Change the heading text
-
-To change the heading text (New Products, Featured Products, Most Popular Products), edit the language file, look for the key `products` > `new` or `featured` or `top`.
-
-![Edit language new products heading text](img/edit-language-products-new.png)
-
-
 
 ###Change background of featured products block
 
@@ -474,9 +456,9 @@ This can be accomplished by the code in homepage template file  `templates/compo
 ```
 - `style="laparis4"` indicates that products carousel should show full width.
 - `show_subheading=true` indicates that the products block should have subheading.
-Subheading can be edited in the language file `en.json`:
+Subheading can be edited in __Homepage Section__:
 
-![Edit language file for subheading](img/edit-language-subheading.png)
+![Edit subheading](img/edit-subheading.png)
 
 ## Recent Blog Posts
 
@@ -486,9 +468,9 @@ This block show the most recent blog posts.
 
 ### Customize heading text and other text
 
-To change the heading text, read more text and date format, edit the language file. Find the key `blog` > `recent_posts`, `posted_by` and `read_more`, edit its values as you want.
+To change the heading text, read more text and date format, edit in The Blog section. Edit its values as you want.
 
-![Edit recent blog text in the language file](img/edit-language-blog.png)
+![Edit recent blog text in the language file](img/edit-blog.png)
 
 
 
@@ -593,14 +575,15 @@ The number in `"id": "..."` is your __User ID__.
 
 ### Display your Instagram photos
 
-To display our own Instagram photos, edit the language file. Find the key `emthemesmodez` > `instagram`, input your real code:
+To display our own Instagram photos, in the Instagram section. input your real code:
 
 - `user_id`: Is your Instagram __User ID__.
 - `client_id`: is your Instagram __Client ID__.
 - `access_token`: is your Instagram __Access Token__.
 - `title`: Is the heading text.
+- `description`: Is the heading text.
 
-![Edit instagram in the language file](img/edit-language-instagram.png)
+![Edit instagram in the language file](img/edit-instagram.png)
 
 ## Footer - Newsletter
 
@@ -633,12 +616,12 @@ To customize colors of the header section, look into the options showing below i
 
 ![Footer Links](img/home1-footer-columns.png)
 
-To edit text and links on the footer, edit the language file, section `footer` > `links`:
+To edit text and links on the footer, To edit Footer Links, You Go to __Theme Editor__ > __Footer__:
 
-![Edit language footer links](img/edit-language-footer-links.png)
+![Edit language footer links](img/edit-footer-links.png)
 
-- `col1_heading`, `col2_heading`, `col3_heading`: is the heading text of each column.
-- `col*_url*`, `col*_title*`: is URL and text of each link.
+- __Footer links column 1 heading__, __Footer links column 2 heading__, __Footer links column 3 heading__: is the heading text of each column.
+- __Footer links column * title__, __Footer links column * url __: is URL and text of each link.
 
 
 
@@ -664,11 +647,11 @@ To show/hide payment icons, go to Theme __Editor__ > __Payment Icons__ secitons,
 
 ![Copyright links](img/home1-copyright-links.png)
 
-To edit links in the copyright section at footer, edit the language file, find `footer` > `copyright_links`:
+To edit links in the copyright section at footer, To edit Copyright Links, You Go to the __Theme Editor__ > __Footer__:
 
-![Edit language copyright links](img/edit-language-copyright-links.png)
+![Edit language copyright links](img/edit-copyright-links.png)
 
-- `url*` is link URL. Leave a __single space__ letter if you want to hide any link.
+- `url*` is link URL. Leave a blank if you want to hide any link.
 - `title*` is link title.
 
 
@@ -734,72 +717,6 @@ Edit your product in the admin panel to add custom label:
 ![Edit product custom fields](img/edit-product-custom-fields.png)
 
 Add a custom label named `card_color` and enter color hex code in the value input box seperator by commas.
-
-## Mix contents from other theme styles
-
-For example, if you want to use theme __default__ style as the main theme, but also want to display other content blocks from __Style 2__. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.
-
-Let open folder `templates` > `components` > `emthemes-modez` > `home` in the template files editor:
-
-![Edit template file home default](img/edit-file-home-default.png)
-
-There is 2 files in this folder:
-
-- `default.html`: is used for __default__ style.
-- `laparis2.html`: is used for __Style 2__.
-
-Let's take a look at contents of 2 files:
-
-__default.html__
-
-```plain
-{{> components/emthemes-modez/sections/section section="banner_laparis1_1"}}
-{{> components/emthemes-modez/sections/section section="new_products"}}
-{{> components/emthemes-modez/sections/section section="categories_featured"}}
-{{> components/emthemes-modez/sections/section section="popular_products"}}
-{{> components/emthemes-modez/sections/section section="blog_recent"}}
-{{> components/emthemes-modez/sections/section section="brands_carousel"}}
-{{> components/emthemes-modez/sections/section section="instagram_grid"}}
-```
-
-__laparis2.html__
-
-```plain
-{{> components/emthemes-modez/sections/section section="products_by_category_1"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_2"}}
-{{> components/emthemes-modez/sections/section section="carousel_laparis2_1"}}
-{{> components/emthemes-modez/sections/section section="special_products_columns"}}
-{{> components/emthemes-modez/sections/section section="brands_carousel"}}
-{{> components/emthemes-modez/sections/section section="instagram_grid"}}
-```
-
-The files are showing very clearly how content blocks are displayed. See values in parameter `section="..."`:
-
-- `banner_laparis1_1`: Is the first block content 3 banners in the homepage of default style.
-- `new_products`: Is a block contains new products.
-- `categories_featured`: Is a block contains featured products with categories list as appeared on the homepage of default style.
-- `popular_products`: Is a block contains popular (or bestselling) products.
-- `blog_recent`: Is a block contains recent blog posts.
-- `brands_carousel`: Is a brand images carousel.
-- `instagram_grid`: Is a block displaying instagram photos.
-- `products_by_category_1` & `products_by_category_2`: Is a block contains product in a certain category as showing on homepage of __Style 2__.
-- `carousel_laparis2_1`: Is the image carousel as showing on homepage of __Style 2__.
-- `special_products_columns`: Is a block contains 3 columns showing new products, featured products and bestselling products as displayed on homepage of __Style 2__.
-
-So just copy a line from the other file to the other. Arrange position of these sections as you wish.
-
-Example of a mixed __default.html__:
-
-```plain
-{{> components/emthemes-modez/sections/section section="new_products"}}
-{{> components/emthemes-modez/sections/section section="popular_products"}}
-{{> components/emthemes-modez/sections/section section="banner_laparis1_1"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_1"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_2"}}
-{{> components/emthemes-modez/sections/section section="instagram_grid"}}
-{{> components/emthemes-modez/sections/section section="blog_recent"}}
-{{> components/emthemes-modez/sections/section section="brands_carousel"}}
-```
 
 ## Add our own CSS (Sass) code
 
