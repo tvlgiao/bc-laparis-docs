@@ -67,15 +67,11 @@ To customize Page navigation of the header section, look into the options showin
 ### Mega menu Customization
 
 ![Mega Menu](img/home1-megamenu.png)
-
+The theme support 6 Megamenu.
 To customize Mega menu of the header section, look into the options showing below in the Theme Editor:
 
 ![Mega Menu](img/home1-megamenu-2.png)
 
-
-For example if the current menu __Shop By__ has category ID = `23`.
-
-- __Id Mega menu__: 23.
 - __Show banner on Mega menu__: Check it if you want to display the banner in this Megamenu.
 - __Banner position__: There are 3 choices: __Banner half left__, __Banner half right__ and __Banner quarter__.
 - __The Banner URL__: Enter the path of image source.
